@@ -1,0 +1,162 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	margin: auto;
+  background-color: #101321;
+  /*background-color: #090621;*/
+}
+
+.container-fluid{
+	/*background-color: #1e2a38;*/
+	height: 100%;
+	margin: 0px;
+	padding: 0px;
+}
+
+.row{
+	margin: 0px;
+}
+
+#logo{
+	padding-top: 10px;
+  padding-right: 0px;
+	background-color: rgba(0,0,0,0.2);
+	/*background-color: #161a2e;*/
+  /*background-color: #101321;*/
+}
+
+#title{
+	padding-top: 25px;
+  padding-left: 0px; 
+	background-color: rgba(0,0,0,0.2);
+	/*background-color: #161a2e;*/
+  /*background-color: #101321;*/
+	font-family: "Times";
+	color: #ffffff;
+}
+
+#navbar{
+  padding-top: 25px;
+  /*background-color: #101321;*/
+  background-color: rgba(0,0,0,0.2);
+  /*background-color: #161a2e;*/
+  /*background-color: #161a2e;*/
+  font-family: "Times";
+  font-size: 18px;
+  color: #ffffff;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: right;
+}
+
+li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover{
+  background-color: pink;
+}
+
+.fa{
+	font-size: 20px;
+	margin-left: 23px;
+}
+
+.fa:hover{
+	color: #ed074c;
+	opacity: 0.8;
+}
+
+#body{
+  margin-top: 8px;
+}
+
+.text h3{
+	font-family: "Times";
+}
+
+#nav{
+  margin-top: 20px;
+}
+
+.card-header li{
+  float: left;
+}
+
+#first{
+  background-color: green;
+  font-family: "Times";
+  text-align: center;
+  color: #ffffff;
+}
+
+#scnd{
+  background-color: #b5052b;
+  font-family: "Times";
+  text-align: center;
+  color: #ffffff;
+}
+
+#news{
+  margin-right: 0px;
+  margin-bottom: 300px;
+  font-family: "Times";
+}
+#col4{
+  float: left;
+
+}
+
+#info{
+  color: white;
+  background-color: #101321;
+  /*background-color: #090621;*/
+  margin-bottom: 30px;
+}
+
+.d-block{
+  height: 300px;
+  border-radius: 20px;
+}
+
+.carousel{
+  margin-bottom: 30px;
+}
+
+
+footer{
+  	/*background-color: #101321;*/
+    background-color: rgba(0,0,0,0.2);
+  	position: fixed;
+  	left: 0;
+  	bottom: 0;
+  	width: 100%;
+	font-family: "Times";
+	color: #ffffff;
+	text-align: center; 
+
+}
+
+#contact{
+  padding-top: 25px;
+ 
+  /*background-color: #161a2e;*/
+  font-family: "Times";
+  font-size: 12px;
+  color: #ffffff;
+  margin-bottom: 10px;
+}
